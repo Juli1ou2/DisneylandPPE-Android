@@ -12,6 +12,24 @@
         android:theme="@style/Theme.MyEnqueteDisneyland"
         tools:targetApi="31">
         <activity
+            android:name=".Resultat"
+            android:exported="false" />
+        <activity
+            android:name=".Page4"
+            android:exported="false" />
+        <activity
+            android:name=".Page3"
+            android:exported="false" />
+        <activity
+            android:name=".Page2"
+            android:exported="false" />
+        <activity
+            android:name=".Page1"
+            android:exported="false" />
+        <activity
+            android:name=".Inscription"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

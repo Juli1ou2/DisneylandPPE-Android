@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#778899"
+
+    tools:context=".Page3">
+
+    <Button
+        android:id="@+id/idSuivant3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="21dp"
+        android:text="Suivant"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRestau3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="411dp"
+        android:layout_height="183dp"
+
+        android:layout_marginBottom="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/disneyland_logo" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="415dp"
+        android:layout_height="43dp"
+        android:background="#213F8F"
+        android:text="Application Disneyland - 2023"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="193dp"
+        android:layout_marginEnd="193dp"
+        android:layout_marginBottom="20dp"
+        android:text="3/4"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idSuivant3" />
+
+    <CheckBox
+        android:id="@+id/idRestau5"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="19dp"
+        android:text="Auberge de Cendrillon"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idRestau6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRestau2"
+        app:layout_constraintTop_toBottomOf="@+id/idRestau4" />
+
+    <CheckBox
+        android:id="@+id/idRestau3"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="25dp"
+        android:text="Chez Rémy"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idSuivant3"
+        app:layout_constraintEnd_toStartOf="@+id/idRestau6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRestau2" />
+
+    <CheckBox
+        android:id="@+id/idRestau2"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="19dp"
+        android:text="En coulisse"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idRestau3"
+        app:layout_constraintEnd_toStartOf="@+id/idRestau5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idRestau1" />
+
+    <CheckBox
+        android:id="@+id/idRestau4"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="16dp"
+        android:text="Annette's Diner"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idRestau5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRestau1"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <CheckBox
+        android:id="@+id/idRestau1"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Au Chalet de la Marionnette"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idRestau2"
+        app:layout_constraintEnd_toStartOf="@+id/idRestau4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <CheckBox
+        android:id="@+id/idRestau6"
+        android:layout_width="135dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="25dp"
+        android:text="Captain Jack's - Restaurant des Pirates"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/idSuivant3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idRestau3"
+        app:layout_constraintTop_toBottomOf="@+id/idRestau5" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:text="Quels sont vos restaurants préférés ?"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/idRestau4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
