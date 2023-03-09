@@ -9,7 +9,7 @@
     tools:context=".Page3">
 
     <Button
-        android:id="@+id/idSuivant3"
+        android:id="@+id/idFin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="156dp"
@@ -62,7 +62,7 @@
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idSuivant3" />
+        app:layout_constraintTop_toBottomOf="@+id/idFin" />
 
     <CheckBox
         android:id="@+id/idRestau5"
@@ -86,7 +86,7 @@
         android:layout_marginBottom="25dp"
         android:text="Chez Rémy"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/idSuivant3"
+        app:layout_constraintBottom_toTopOf="@+id/idFin"
         app:layout_constraintEnd_toStartOf="@+id/idRestau6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idRestau2" />
@@ -141,7 +141,7 @@
         android:layout_marginBottom="25dp"
         android:text="Captain Jack's - Restaurant des Pirates"
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/idSuivant3"
+        app:layout_constraintBottom_toTopOf="@+id/idFin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/idRestau3"
         app:layout_constraintTop_toBottomOf="@+id/idRestau5" />

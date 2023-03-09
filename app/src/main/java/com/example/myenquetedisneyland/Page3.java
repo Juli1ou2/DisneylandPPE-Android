@@ -23,7 +23,7 @@ public class Page3 extends AppCompatActivity implements View.OnClickListener{
         this.cbRestau4 = findViewById(R.id.idRestau4);
         this.cbRestau5 = findViewById(R.id.idRestau5);
         this.cbRestau6 = findViewById(R.id.idRestau6);
-        this.btSuivant = findViewById(R.id.idSuivant3);
+        this.btSuivant = findViewById(R.id.idFin);
 
         this.btSuivant.setOnClickListener(this);
 
@@ -31,7 +31,7 @@ public class Page3 extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        if(view.getId()== R.id.idSuivant3){
+        if(view.getId()== R.id.idFin){
             Intent unIntent = new Intent(this, Page4.class);
             this.startActivity(unIntent);
         }
