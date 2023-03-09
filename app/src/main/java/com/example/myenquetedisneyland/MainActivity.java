@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btInscritpion;
+    private Button btInscritpion, btResultat;
 
 
     @Override
@@ -19,8 +19,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         //faire le lien entre objet prog et graphique
         this.btInscritpion = findViewById(R.id.idInscription);
+        this.btResultat = findViewById(R.id.idResultat);
         //rendre les boutons ecoutables
         this.btInscritpion.setOnClickListener(this);
+        this.btResultat.setOnClickListener(this);
     }
 
     @Override
@@ -28,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(view.getId()== R.id.idInscription){
             Intent unIntent = new Intent(this, Inscription.class);
             this.startActivity(unIntent);
-        }
+        } else if(view.getId()== R.id.idResultat){
+            Intent unIntent = new Intent(this, Resultat.class);
+            this.startActivity(unIntent);
+
     }
 }
