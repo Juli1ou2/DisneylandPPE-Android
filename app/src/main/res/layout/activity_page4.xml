@@ -31,7 +31,7 @@
         android:layout_marginBottom="24dp"
         android:text="Une petite note et on vous laisse tranquille "
         android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/idRatingBar"
+        app:layout_constraintBottom_toTopOf="@+id/idNote"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idAvis" />
@@ -59,12 +59,13 @@
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idRatingBar" />
+        app:layout_constraintTop_toBottomOf="@+id/idNote" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="415dp"
         android:layout_height="43dp"
+        android:layout_marginTop="24dp"
         android:background="#213F8F"
         android:text="Application Disneyland - 2023"
         android:textAlignment="center"
@@ -72,6 +73,7 @@
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -92,26 +94,26 @@
 
     <EditText
         android:id="@+id/idAvis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="206dp"
+        android:layout_height="77dp"
         android:layout_marginStart="100dp"
         android:layout_marginEnd="101dp"
         android:layout_marginBottom="104dp"
         android:ems="10"
         android:gravity="start|top"
-        android:inputType="textMultiLine"
+        android:inputType="text|textMultiLine"
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <RatingBar
-        android:id="@+id/idRatingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="83dp"
-        android:layout_marginEnd="88dp"
+        android:id="@+id/idNote"
+        android:layout_width="211dp"
+        android:layout_height="36dp"
         android:layout_marginBottom="47dp"
+        android:clickable="true"
+        android:progressDrawable="@drawable/ratingbar"
         android:progressTint="#213F8F"
         app:layout_constraintBottom_toTopOf="@+id/idFin"
         app:layout_constraintEnd_toEndOf="parent"
