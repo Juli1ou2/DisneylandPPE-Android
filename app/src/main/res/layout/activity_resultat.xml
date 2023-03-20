@@ -4,6 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#778899"
     tools:context=".Resultat">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="411dp"
+        android:layout_height="183dp"
+        android:layout_marginBottom="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/disneyland_logo" />
+
+    <Button
+        android:id="@+id/idFin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#213F8F"
+        android:text="Fin"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="415dp"
+        android:layout_height="43dp"
+        android:background="#213F8F"
+        android:text="Application Disneyland - 2023"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="688dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+

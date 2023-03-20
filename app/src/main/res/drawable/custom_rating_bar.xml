@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/idVide"
+        android:drawable="@drawable/mickey_empty"/>
+    <item android:id="@+id/idRemplissage"
+        android:drawable="@drawable/mickey_half"/>
+    <item android:id="@+id/idPlein"
+        android:drawable="@drawable/mickey_full"/>
+</layer-list>

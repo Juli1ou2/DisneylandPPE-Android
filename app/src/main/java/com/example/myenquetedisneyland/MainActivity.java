@@ -30,9 +30,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(view.getId()== R.id.idInscription){
             Intent unIntent = new Intent(this, Inscription.class);
             this.startActivity(unIntent);
-        } else if(view.getId()== R.id.idResultat){
+        } else if(view.getId()== R.id.idResultat) {
             Intent unIntent = new Intent(this, Resultat.class);
             this.startActivity(unIntent);
-
+        }
     }
 }
